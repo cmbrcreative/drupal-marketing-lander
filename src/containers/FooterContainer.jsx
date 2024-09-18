@@ -1,4 +1,3 @@
-import React from "react";
 import CmbrLogoWhite from "../assets/icons/CmbrLogoWhite";
 import { Squircle } from "@squircle-js/react";
 
@@ -25,7 +24,7 @@ const FooterContainer = () => {
         }}
       />
       <div className="relative z-20 w-full">
-        <div className="relative z-20 flex flex-col gap-[4rem] pb-[4rem] pt-[8rem] md:px-[2.4rem] md:pb-[8rem] md:pt-[16rem] lg:gap-[16rem] lg:px-[8rem] lg:pt-[25.6rem]">
+        <div className="relative z-20 flex flex-col gap-[4rem] pb-[4rem] pt-[8rem] md:px-[2.4rem] md:pb-[16rem] md:pt-[16rem] lg:gap-[16rem] lg:px-[8rem] lg:pt-[25.6rem]">
           <div className="mx-auto flex max-w-[105.2rem] flex-col items-center justify-center gap-[2.4rem]">
             <p
               className="text-center font-rebond font-bold leading-[108%] tracking-[-0.12rem] text-white"
@@ -55,36 +54,32 @@ const FooterContainer = () => {
               </a>
             </div>
           </div>
-
-          <div className="mx-auto flex max-w-[151.2rem] flex-col items-center gap-[3.2rem] text-white md:items-start">
-            <CmbrLogoWhite />
-            <div className="flex w-full flex-col items-center justify-between gap-8 md:flex-row md:items-end lg:gap-16">
-              <div className="flex flex-col items-center gap-0 text-white md:justify-end">
-                <p className="p-sm-reg max-w-[30ch]">
-                  🇺🇸 Made in the USA by a distributed team from FL, NC, SC, NH,
-                  PA, TX, TN, and CA.
-                </p>
-              </div>
-
-              <div className="flex flex-col items-center md:items-start">
-                <p className="p-sm-bold">Contact:</p>
-                <a
-                  href="mailto:newclient@cmbr.co"
-                  className="p-sm-reg underline"
-                >
-                  newclient@cmbr.co
-                </a>
-              </div>
-              <p className="p-sm-reg">
-                © 2024 Camber Creative. All rights reserved.
+        </div>
+        <div className="mx-auto flex max-w-[151.2rem] flex-col items-center gap-[3.2rem] text-white md:items-start px-[8rem] pb-[8rem]">
+          <CmbrLogoWhite />
+          <div className="flex w-full flex-col items-center justify-between gap-8 md:flex-row md:items-end lg:gap-16">
+            <div className="flex flex-col items-center gap-0 text-white md:justify-end">
+              <p className="p-sm-reg max-w-[30ch] text-center">
+                🇺🇸 Made in the USA by a distributed team from FL, NC, SC, NH,
+                PA, TX, TN, and CA.
               </p>
-              <a
-                href="https://www.cmbr.ai/privacy-policy"
-                className="p-sm-reg underline"
-              >
-                Privacy Policy
+            </div>
+
+            <div className="flex flex-col items-center md:items-start">
+              <p className="p-sm-bold text-center lg:text-left w-full">Contact:</p>
+              <a href="mailto:newclient@cmbr.co" className="p-sm-reg underline text-center lg:text-left w-full">
+                newclient@cmbr.co
               </a>
             </div>
+            <p className="p-sm-reg text-center">
+              © 2024 Camber Creative. All rights reserved.
+            </p>
+            <a
+              href="https://www.cmbr.ai/privacy-policy"
+              className="p-sm-reg underline text-center"
+            >
+              Privacy Policy
+            </a>
           </div>
         </div>
       </div>

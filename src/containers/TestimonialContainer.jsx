@@ -1,7 +1,7 @@
 import StarsBlack from "../assets/icons/StarsBlack";
 import StarsIcon from "../assets/icons/StarsIcon";
-import StyleMePrettyLogo from "../assets/logos/StyleMePrettyLogo";
-import AHLogo from "../assets/logos/AHLogo";
+import AHLogo from "./LogoCarousel/logos/AHLogo";
+import StyleMePrettyLogo from "./LogoCarousel/logos/StyleMePrettyLogo";
 import "./testimonials.css";
 const TestimonialContainer = () => {
   return (
@@ -170,20 +170,3 @@ const TestimonialContainer = () => {
 };
 
 export default TestimonialContainer;
-
-// {
-//   /* up top left */
-// }
-// <div className="absolute -left-px hidden h-[6.4rem] w-px border-r border-dashed lg:-top-[6.4rem] lg:block xl:-top-[12.8rem] xl:h-[12.8rem]"></div>;
-// {
-//   /* up top right */
-// }
-// <div className="absolute -right-px hidden h-[6.4rem] w-px border-r border-dashed lg:-top-[6.4rem] lg:block xl:-top-[12.8rem] xl:h-[12.8rem]"></div>;
-// {
-//   /* left top */
-// }
-// <div className="absolute -left-[12.8rem] -top-px hidden h-px w-[12.8rem] border-b border-dashed lg:block"></div>;
-// {
-//   /* left bottom */
-// }
-// <div className="absolute -bottom-px -left-[12.8rem] h-px w-[12.8rem] border-b border-dashed"></div>;

@@ -1,23 +1,23 @@
-import { Squircle } from "@squircle-js/react";
-import BackgroundBlur from "./assets/images/BackgroundBlur";
-import Nav from "./components/Nav/Nav";
-import CertificationsContainer from "./containers/CertificationsContainer";
-import CTASectionContainer from "./containers/CTASectionContainer";
 import { motion } from "framer-motion";
-import Hero from "./containers/HeroContainer";
-import LogoCarousel from "./containers/LogoCarousel";
-import ManifestoContainer from "./containers/ManifestoContainer";
-import PrinciplesContainer from "./containers/PrinciplesContainer";
-import ServicesContainer from "./containers/ServicesContainer";
-import TestimonialContainer from "./containers/TestimonialContainer";
-import WorkSamples from "./containers/WorkSamplesContainer";
-import "./index.css";
-import { FAQContainer } from "./containers";
-import YellowBlob from "./assets/icons/YellowBlob";
-import LightBlueBlob from "./assets/icons/LightBlueBlob";
 import DarkBlueBlob from "./assets/icons/DarkBlueBlob";
+import LightBlueBlob from "./assets/icons/LightBlueBlob";
 import PurpleBlob from "./assets/icons/PurpleBlob";
+import YellowBlob from "./assets/icons/YellowBlob";
+import {
+  FAQ,
+  Hero,
+  Nav,
+  WorkSamples,
+  LogoCarousel,
+  CTASection,
+} from "./containers";
+import CertificationsContainer from "./containers/Certifications/CertificationsContainer";
 import FooterContainer from "./containers/FooterContainer";
+import ManifestoContainer from "./containers/ManifestoContainer";
+import PrinciplesContainer from "./containers/Principles/PrinciplesContainer";
+import ServicesContainer from "./containers/Services/ServicesContainer";
+import TestimonialContainer from "./containers/TestimonialContainer";
+import "./index.css";
 
 function App() {
   return (
@@ -52,10 +52,10 @@ function App() {
         </div>
         <div className="relative mx-auto max-w-[151.2rem] px-[2.4rem]">
           <div className="mb-[14.4rem]">
-            <CTASectionContainer />
+            <CTASection />
           </div>
           <div className="mb-[14.4rem]">
-            <FAQContainer />
+            <FAQ />
           </div>
           <div className="mb-[14.4em]">
             <PrinciplesContainer />
